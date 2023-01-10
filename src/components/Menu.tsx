@@ -7,9 +7,9 @@ export const Menu: React.FC = () => {
             <li className="mr-3 flex-1">
               <a
                 href="#"
-                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500"
+                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 font-bold border-blue-600"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Início
                 </span>
               </a>
@@ -17,9 +17,9 @@ export const Menu: React.FC = () => {
             <li className="mr-3 flex-1">
               <a
                 href="#"
-                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-pink-500"
+                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Tutor
                 </span>
               </a>
@@ -29,7 +29,7 @@ export const Menu: React.FC = () => {
                 href="#"
                 className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Cadastro
                 </span>
               </a>
@@ -37,7 +37,7 @@ export const Menu: React.FC = () => {
             <li className="mr-3 flex-1">
               <a
                 href="#"
-                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-blue-600"
+                className="block py-1 md:py-3 pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
                 <span className="pb-1 md:pb-0 text-xs md:text-base text-white md:text-white block md:inline-block">
                   Formação
@@ -49,7 +49,7 @@ export const Menu: React.FC = () => {
                 href="#"
                 className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Ofertas
                 </span>
               </a>
@@ -59,7 +59,7 @@ export const Menu: React.FC = () => {
                 href="#"
                 className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Alocações
                 </span>
               </a>
@@ -69,7 +69,7 @@ export const Menu: React.FC = () => {
                 href="#"
                 className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Administrativo
                 </span>
               </a>
@@ -79,7 +79,7 @@ export const Menu: React.FC = () => {
                 href="#"
                 className="block py-1 md:py-3 pl-0 md:pl-1 align-middle text-white no-underline hover:text-white border-b-2 border-gray-800 hover:border-red-500"
               >
-                <span className="pb-1 md:pb-0 text-xs md:text-base text-gray-400 md:text-gray-200 block md:inline-block">
+                <span className="pb-1 md:pb-0 text-xs md:text-base md:text-gray-200 block md:inline-block">
                   Relatórios
                 </span>
               </a>

@@ -15,15 +15,15 @@ export const Header: React.FC = () => {
           </div>
 
           <div className="flex flex-1 md:w-1/3 justify-center md:justify-start text-white px-2">
-            <span className="relative w-full">
+            <span className="relative w-full pt-2">
               <input
                 aria-label="search"
                 type="search"
                 id="search"
-                placeholder="Search"
+                placeholder="Buscar edital"
                 className="w-full bg-gray-900 text-white transition border border-transparent focus:outline-none focus:border-gray-400 rounded py-3 px-2 pl-10 appearance-none leading-normal"
               />
-              <div className="absolute search-icon top-4 left-3">
+              <div className="absolute search-icon top-6 left-3">
                 <svg
                   className="fill-current pointer-events-none text-white w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
