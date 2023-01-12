@@ -1,4 +1,8 @@
+import { useState } from 'react';
+
 export const Header: React.FC = () => {
+  const [openDropdownMenu, setOpenDropdownMenu] = useState(false);
+
   return (
     <header>
       <nav
@@ -20,10 +24,10 @@ export const Header: React.FC = () => {
                 aria-label="search"
                 type="search"
                 id="search"
-                placeholder="Buscar edital"
+                placeholder="Pesquisar"
                 className="w-full bg-gray-900 text-white transition border border-transparent focus:outline-none focus:border-gray-400 rounded py-3 px-2 pl-10 appearance-none leading-normal"
               />
-              <div className="absolute search-icon top-6 left-3">
+              <div className="absolute top-6 left-3">
                 <svg
                   className="fill-current pointer-events-none text-white w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +51,10 @@ export const Header: React.FC = () => {
               </li>
               <li className="flex-1 md:flex-none md:mr-3">
                 <div className="relative inline-block">
-                  <button className="drop-button text-white py-2 px-2">
+                  <button
+                    className="drop-button text-white py-2 px-2"
+                    onClick={() => setOpenDropdownMenu(!openDropdownMenu)}
+                  >
                     {' '}
                     <span className="pr-2">
                       <i className="em em-robot_face"></i>
@@ -63,7 +70,9 @@ export const Header: React.FC = () => {
                   </button>
                   <div
                     id="dropdown-menu"
-                    className="dropdownlist absolute bg-gray-800 text-white right-0 mt-3 p-3 overflow-auto z-30 invisible"
+                    className={`dropdownlist absolute bg-gray-800 text-white right-0 mt-3 p-3 overflow-auto z-30 ${
+                      openDropdownMenu ? '' : 'invisible'
+                    }`}
                   >
                     <a
                       href="#"
